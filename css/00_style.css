@@ -1,0 +1,39 @@
+/* /!\ attention les commentaires en css ne se font pas de la même maniére qu'en HTML*/
+
+/* Les développeurs ont l'habitude d'utiliser un reset qui va uniformiser la mise en page, on en trouve quelques exemples sur internet */
+
+/* prenez l'habitude de tester votre fichier style en mettant un background-color sur votre balise body */
+
+selecteur{
+    propriété: valeur; /* le point virgule est indispensable pour ne pas avoir d'erreurs, prenez l'habitude de le mettre tout le temps */
+}
+
+.class{
+    /* on peut mettre plusieurs class pour une balise dans le HTML et on peut utiliser une même class pour plusiers balises */
+
+    propriété:valeur;
+    propriété:valeur;
+    propriété:valeur;
+}
+
+#id{ /* on n'utilise les id de manière unique, on ne donne pas le même nom d'id à plusieurs balises, les id sont utilisés aussi pour faire des ancres */
+
+    propriété:valeur;
+
+}
+
+.class1, .class2, .class3{
+    /* On sépare les selecteurs par des virgules pour en appliquer le même style */
+    propriété:valeur;
+}
+
+
+.class1 .class2 .class3{
+    /* Ici on parle de la classe3 qui est dans la class2 qui est dans la class1 */
+
+    propriété:valeur
+
+}
+*{ 
+    font-family: 'Rubik Glitch', cursive;
+}

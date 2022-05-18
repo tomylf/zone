@@ -1,0 +1,37 @@
+body{
+    width: 80%; /*largeur*/
+    margin: 10px auto;
+    font-family: cursive;
+}
+
+#contenu{
+    background-color: red; /* Le style est surchargé (écrasé) plus bas */
+    border: 2px solid #000; /* #000 = #000000 = black */
+}
+
+header, footer{
+    height: 80px;/*hauteur*/
+    background-color: #8e3557;
+    color: #fff; /* #fff = #ffffff = white */
+    text-align: center;
+    padding-top: 6px; /*marge interieur du haut */
+}
+
+nav{
+    height: 40px;
+    background-color: #4a1a2c;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+section{
+    border: 20px solid #787746;
+    background-color: #e6e2af;
+    height: 500px;
+    text-align: center; /*direction du texte*/
+}
+
+p{
+    margin: 0;
+}

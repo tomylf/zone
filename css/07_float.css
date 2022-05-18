@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    /*
+    margin: 0 auto 0 auto; => haut droite bas gauche 
+
+    margin: 0;
+    margin: 0 auto 1; (gauche -> auto)
+    */
+
+    background-color: antiquewhite;
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+}
+
+p{
+    background-color: mediumaquamarine;
+    /* propriété suivante à tester ! */
+display: inline;
+}
+
+p span{ /*vsélectionne les span contenu dans des p */
+    background-color: yellow;
+}
+
+.boite{
+    height: 11vh;
+    width: 15vh;
+    padding: 5vh;
+    background: url(../img/sunset-redi.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid; /* taille, style, couleur de la bordure */
+    margin: 2vh;
+    float: left;
+    /* effet flottant, permet de placer des balises côte à côte alors que selon le flux du web standard les élément les éléments se placent les uns au-dessus des autres. */
+    transition: margin 1s;
+}
+
+/* https://outils-css.aliasdmc.fr/unites-de-longueurs-css.php 
+
+    EM: Relative to the parent element
+
+    REM: Relative to the root element (HTML tag)
+
+    %: Relative to the parent element 
+
+    VH: Relative to the viewport's height
+
+    VW: Relative to the viewport's width
+
+    */
+
+    .boite:hover{
+        /* la pseudo-class : hover modifie un affichage au survol de la souris */
+        margin-top: 10vh;
+    }
+
+    .clear{
+        clear: both;
+        /* supprime l'effet flottant */
+    }

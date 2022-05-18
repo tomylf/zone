@@ -1,0 +1,22 @@
+.test{
+    background-color: blue;
+}
+
+.center{
+    background-color: yellow;
+    font-size: 90px;
+}
+
+#test1{
+    font-size: 35px;
+    background-color: lightgreen;
+}
+
+*{ 
+    font-family: 'Rubik Glitch', cursive;
+}
+.lorem{
+    background-color: darkmagenta;
+    font-size: x-large;
+    font-weight: 300px;
+}

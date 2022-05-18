@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ma première page HTML">
+    <!-- description sous le titre dans la recherche google -->
+    <meta name="author" content="Tom LE FEVRE">
+
+    <meta name="keywords" content="html, page html, base html/css">
+    <!-- les mots clefs en rapport avec la recherche que fera le visiteur, à partir de son importance -->
+
+    <title>Tom</title>
+
+
+<link rel="stylesheet" href="css/01_index.css">
+<!-- relie le fichier HTML au fichier de mise en forme CSS (Cascading Style Sheets)-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+<!-- lien pour les polices utilisées ici via "google font" -->
+
+
+</head><!-- fin de balise head -->
+
+<body><!-- corp de la page -->
+    
+    <p>c'est ma première page web ! le navigateur affiche le texte, les images etc... contenus dans le bloc de ma balise body.</p>
+
+    <!-- Les titres -->
+    <h1>Titre 1</h1>
+    <h2>Titre 2</h2>
+    <h3>Titre 3</h3>
+    <h4>Titre 4</h4>
+    <h5>Titre 5</h5>
+    <h6>Titre 6</h6>
+
+    <p>Ceci est une phrase</p>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, possimus ducimus suscipit cumque praesentium architecto totam harum maxime quis officiis aspernatur nulla maiores animi cum id et, voluptate, tempore vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates architecto distinctio molestias quasi. Architecto qui ipsam sequi exercitationem atque aperiam, quas deleniti consequatur amet quaerat illum quia sed, reprehenderit asperiores!
+    </p>
+
+    <>Les paragraphes sont delimités par la balise &lt;p></p>
+    &lt;div>
+    <!-- &lt; => ce type de code permet de ne pas interprêter notre balise p -->
+
+    <!-- alt + z pour faire le retour à la ligne -->
+
+    &lt;body> &lt;/body>
+
+    <pre>Les numérique de Poissy 2022</pre>
+    <!-- paragraphe préformaté-->
+
+    <!-- Les retours à la ligne -->
+
+    <p>
+        <!-- attention ne pas abuser de br et appliquer plutôt des espaces avec du css-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Eveniet neque amet dignissimos quae voluptas,<br /> velit nulla laudantium magni iste laboriosam.<br /> Eveniet harum a nihil itaque id asperiores<br /> accusantium dignissimos error!
+    </p>
+
+    <!-- la disposition -->
+    <p style="text-align:right">
+        Ce paragraphe sur deux
+        <br /> 
+        lignes est disposé à droite.
+    </p>
+
+    <p style="text-align:center">
+        Ce paragraphe sur
+        <br /> 
+        ligne au centre.
+    </p>
+
+    <p style="text-align:left;">
+        Ce paragraphe sur deux
+        <br />
+        lignes est disposé à gauche
+    </p>
+
+    <p class="lorem"> <!--lorem100 permet de générer 50 mots de texte-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci quod, quae maiores dolores pariatur neque dolorem nobis repellat eligendi, qui reprehenderit harum, aperiam recusandae deserunt dignissimos voluptate. Aperiam, tempora? Dolore perspiciatis iste consectetur ipsum? Non quisquam doloremque iste impedit sequi. Maxime placeat doloremque ipsa, provident quibusdam cumque sint perspiciatis tempore, corporis quam sunt nam optio quis iure, molestias recusandae dignissimos expedita reprehenderit. Animi sint earum doloremque nulla id inventore suscipit veritatis recusandae, distinctio similique, iste reprehenderit repudiandae ratione quos pariatur tenetur unde eius consectetur architecto adipisci iusto minima incidunt! Cumque sit molestiae architecto rem possimus laboriosam suscipit distinctio illo.
+    </p>
+    
+    <code>
+
+        <pre>
+            Voici la structure de base d'une page HTML
+
+            &lt;!DOCTYPE html>
+            &lt;html>
+            &lt;head>
+            &lt;title> &lt;/title>
+            &lt;/head>
+            &lt;body>
+            &lt;/body>
+            &lt;/html>
+
+        </pre>
+
+    </code>
+
+
+    <p> Quel est le rôle de ma balise &lt;hr /> ?</p>
+
+    <hr /> <!-- horizontal rule ==> barre horizontal-->
+
+    <p> Elle insère une ligne séparatrice dans ma page HTML;</p>
+
+    <p> Bonjour, ceci est mon premier fichier en html <strong>soyez indulgents</strong></p>
+
+    <p> Bonjour, ceci est mon premier fichier en html <em>soyez indulgents</em></p>
+
+    <p> Bonjour, ceci est mon premier fichier en html <mark>soyez indulgents</mark></p>
+
+    <!-- les listes -->
+
+    <!-- non ordonnées -->
+
+    <ul>
+        <li>chat</li>
+        <li>chien</li>
+        <li>cheval</li>
+    </ul>
+
+    <!-- Ordonnée (numérotée)-->
+
+    <ol>
+        <li>chat</li>
+        <li>chien</li>
+        <li>cheval</li>
+    </ol>
+
+    <!-- les couleurs -->
+
+    <p style="color: crimson;">H</p>
+    <p style="color: lightseagreen;">T</p>
+    <p style="color: darkgreen;">M</p>
+    <p style="color: navy;">L</p>
+
+    <br />
+
+    <p style="color: #dc143c;">H</p>
+    <p style="color: #20b2aa;">T</p>
+    <p style="color: #006400;">M</p>
+    <p style="color: #000080;">L</p>
+
+    <!-- La couleur de fond -->
+
+    <p style="background-color: cyan;">Bonjour</p>
+    <p style="background-color: pink;">Hello</p>
+    <p style="background-color: black; color: yellow;">Hi dear</p>
+
+    <!-- les liens -->
+    <!-- pour changer un fichier -->
+    <link rel="stylesheet" href="css/01_index.css">
+    <link rel="stylesheet" href="js/main.js">
+
+    <!-- pour accéder à une URL (site web) -->
+
+    <a href="https://www.welcometothejungle.com/fr" target="_blank"> site offre d'emploi</a>
+
+
+
+    <!-- les images -->
+
+    <img src="img/desser-canyon.webp" alt="un desert" title="un desert">
+    <img src="img/sea-turtle.webp" alt="une tortue de mer" title="une tortue de mer">
+    <img src="img/sunset-montagne.jpg" alt="Un couché de soleil" title="Un couché de soleil">
+
+
+
+
+</body>
+</html>
