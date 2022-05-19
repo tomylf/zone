@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.conteneur{
+    min-height: 100%; /* hauteur minimal */
+    height: 150%;
+    /*min-width: 600px; *//* largeur minimal */
+}
+
+header{
+    height: 100px;
+    background: pink;
+}
+
+footer{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: pink;
+}

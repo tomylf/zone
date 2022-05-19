@@ -1,0 +1,101 @@
+*{
+    font-family: sans-serif; /*police d'écriture */
+}
+
+nav{
+    background: #000;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0; /*position à partir du haut de l'écran*/
+    left: 0; /* position à partir de la gauche de l'écran */
+    margin: 0 0 20px;
+
+}
+
+nav a{ /* tous les liens à 'linterieur de la balise nav */
+    float: left; /* effet flottant à gauche */
+    text-decoration: none; /*pas d'héritage avec effet souligné comme c'est standard pour les liens sous tous les navigateur*/
+    color: #fff; /* couleur du texte */
+    line-height: 2.7rem; /* interligne */
+    padding: 0em 2em; /* marges intérieurs - on les fait dans le sens des aiguilles d'une montre (haut, droite, bas, gauche) */
+    font-size: 1.2em; /* taille du texte */
+    transition: 2s; /* temps de transition lors du hover (survol de la souries) ici en 2sec */
+}
+
+nav a:hover{ /* tous les liens au survol de la souris dans le nav  */
+    background: #fda500; /* couleur de fond */
+    color: #000; /* couleur du texte */
+}
+
+/* 1er container */
+.container{
+    width: 70%;
+    margin: 4% auto 2% auto;
+    background: #f1fcde;
+    padding: 2em;
+}
+
+mark{
+    background: #b5a7cf;
+}
+
+.container1{
+    width: 70%;
+    margin: 2% auto;
+    background: #f1fcde;
+    padding: 2%;
+}
+
+.container2, .container3{
+    width: 44.5%;
+    background: #f1fcde;
+    padding: 2%;
+    float: left;
+}
+
+.container2{
+    margin-right: 1.5%;
+}
+
+.container3{
+    margin-left: 1.5%;
+}
+
+.container4{
+    margin-top: 2em;
+}
+
+.clear{
+    clear: both;
+}
+
+.container3 ol li:nth-of-type(11){
+    border: 1px solid crimson;
+}
+
+.container3 ol li:first-child{
+    font-weight: 700;
+}
+
+.container3 ol li:nth-of-type(7){
+    opacity: 0.3;
+}
+
+.container3 ol li:last-child{
+    color: darkred;
+}
+
+li{
+    border: 1px solid black;
+    opacity: 0.3;
+    color: aqua;
+}
+
+/* 
+Exercice supplémentaire
+bordure sur li "border"
+fontweight sur li "font-weight"
+opacity sur li "opacity"
+color sur "!important"
