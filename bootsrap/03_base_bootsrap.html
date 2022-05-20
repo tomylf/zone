@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Bootstrap 3</title>
+
+    <!-- RAPPEL : les 3 balises meta ci-dessus doivent être en 1er dans le <head> touts les autres éléments contenu dans le <head> viennent après -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- CSS personnel TOUJOURS APRES celui du framework -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Contenu HTML-->
+
+    <!-- Bootstrap 
+    
+        BS est un framework CSS, il comporte beaucoup de possibilités. Ici, nous verrons ensemble ses principes de fonctionnement et les base de son utilisation.
+    
+        A chacun d'aller explorer en detail ce qui est possible de faire avec BS.
+    
+        BS permet d'avoir un site immediatement responsive, il faut savoir que les sites internet non responsive sont pas référencés (référencement naturel) depuis mai 2015 
+    
+        BS part du principe que chaque élément html de type bloc a 12 colonnes 
+    -->
+
+    <div class="container">
+        <h2>Les containers ou blocs principaux</h2>
+    </div>
+
+    <div class="container-fluid c3">
+        <h2>Container-fluid</h2>
+    </div>
+
+    <div class="container-fluid c4">
+        <p>.container</p>
+    </div>
+
+    <!-- la class .container-fluid de BS (bootstrap) va occuper 100% de la largeur de l'écran 
+        si je l'utilise imbriquée dans un autre élément de BS bien entendu ce bloc occupera 100% de la largeur disponible ( qui est definit pas l'élément parent)
+    
+        la class .container de BS permet de travailler sur une page occupant environ 70% de la largeur de l'écran dont le contenu est centré (margin: 0 auto;)
+    
+        par défaut si je travaille sans déclarer de div avec une class .container ou .container-fluid l'affichage se fait sur 100% de la largeur 
+     -->
+
+    
+</body>
+</html>
